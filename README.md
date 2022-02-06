@@ -25,7 +25,7 @@ This challange has two parts:
 
 ### Jenkinsfile
 
-Jenkinsfile has been written in declarative pipeline supported by Jenkins. It has following stages:
+Jenkinsfile has been written in declarative pipeline supported by Jenkins.
 
 ### ci-cd
 
