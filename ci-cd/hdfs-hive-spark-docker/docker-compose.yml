@@ -1,0 +1,15 @@
+version: '3'
+services:
+
+  hdfs-hive:
+    image: abh1sh3k/hadoop-hive-spark:latest
+    container_name: hdfs-hive-spark
+    volumes:
+      - ./hdfs:/tmp/hadoop-root/dfs/name
+    environment:
+      - CLUSTER_NAME=test
+    ports:
+      - "9000:9000"
+      - "50070:50070"
+      - "50075:50075"
+      - "7077:7077"
